@@ -1,12 +1,20 @@
+/*
+When Pivot element is starting elements.
+
+Time Complexity:
+ Average Case: O(n log n)
+Wrost Case :O(N^2)
+*/
 import java.util.*;
 
-class QuickStart_Program{
+public class Quick_Sort_Method_1{
 
-    public static void main(String arr[]) {
-  
+    public static void main(String[] args) {
+
+
         int n;
 
-        int array[] = new int[10];
+        int array[] = new int[100];
         Scanner sc = new Scanner(System.in);
 
         n = sc.nextInt();
@@ -15,9 +23,11 @@ class QuickStart_Program{
             array[i] = sc.nextInt();
 
         }
+/* Adding a very large number to the end so that array out of index error doesnot occur */ 
+        array[n]=100000;
 
-        Quick_Sort(array, 0, n - 1);
-        System.out.println("After Insertation Sort: ");
+        Quick_Sort(array, 0, n-1);
+        System.out.println("After Quick Sort: ");
 
         for (int i = 0; i < n; i++) {
             System.out.print(array[i] + " ");
@@ -31,12 +41,13 @@ class QuickStart_Program{
         if (lowerbound < upperbound) {
             int loc = partation(array, lowerbound, upperbound);
             Quick_Sort(array, lowerbound, loc - 1);
-            Quick_Sort(array, loc+1, upperbound);
+            Quick_Sort(array, loc + 1, upperbound);
         }
 
     }
 
     public static int partation(int array[], int lowerbound, int upperbound) {
+        int temp,test;
         int pivot = array[lowerbound];
         int start = lowerbound;
         int end = upperbound;
@@ -51,15 +62,15 @@ class QuickStart_Program{
             }
 
             if (start < end) {
-                int temp = array[start];
+                 temp = array[start];
                 array[start] = array[end];
                 array[end] = temp;
             }
         }
-        int test=array[end];
+         test=array[end];
         array[end]=array[lowerbound];
         array[lowerbound]=test;
-        
+
         return end;
     }
 
