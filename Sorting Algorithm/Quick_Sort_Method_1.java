@@ -4,6 +4,10 @@ When Pivot element is starting elements.
 Time Complexity:
  Average Case: O(n log n)
 Wrost Case :O(N^2)
+Wrost Case Conditions:
+			1) All Sorted (Ascending Order).
+			2) All elements are Same.
+			3) All elements are in descending order.
 */
 import java.util.*;
 
@@ -23,7 +27,7 @@ public class Quick_Sort_Method_1{
             array[i] = sc.nextInt();
 
         }
-/* Adding a very large number to the end so that array out of index error doesnot occur */ 
+	/* Adding a very large number to the end so that array out of index error doesnot occur */ 
         array[n]=100000;
 
         Quick_Sort(array, 0, n-1);
