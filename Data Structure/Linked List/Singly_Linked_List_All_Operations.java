@@ -71,7 +71,7 @@ public class Singly_Linked_List_All_Operations
         }
     }
 }
-
+// Working similear with structure in C language
 class Node
 {
     int Data;
@@ -84,6 +84,8 @@ class LinkedListOperations
 
     void insertNode_At_Last(int data)
     {
+	// Memory is allocated with new operator
+
         Node node = new Node();
         node.Data = data;
         node.Next = null;
