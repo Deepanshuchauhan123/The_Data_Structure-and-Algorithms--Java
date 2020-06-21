@@ -1,4 +1,6 @@
-public class Leaf_Nodes_in_Binary_Tree
+// Full Node: A full node is  a node of which both left and right child are present or not null.
+
+public class Full_Nodes_in_BinaryTree
 {
 
     // Main function for creating node.
@@ -15,14 +17,14 @@ public class Leaf_Nodes_in_Binary_Tree
         root.LeftChild.RightChild.LeftChild=new Node(11);
         root.LeftChild.RightChild.RightChild=new Node(12);
 
-        System.out.println("Number of Leaf Nodes in Binary Tree");
-        // Count_LeafNodes function will call from here and count Leaf nodes
-        int count=Count_LeafNodes(root);
-        //print the value returned after calculating numbers of Leaf nodes.
-        System.out.println("Leaf Nodes = "+count);
+        System.out.println("Number of Full Nodes in Binary Tree");
+        // Count_Full_Nodes function will call from here and count Non Leaf nodes
+        int count=Count_Full_Nodes(root);
+        //print the value returned after calculating numbers of Full nodes.
+        System.out.println("Full Nodes = "+count);
     }
 
-    public static int Count_LeafNodes(Node temp)
+    public static int Count_Full_Nodes(Node temp)
     {
 //if Node value becomes null that means their is no further nodes in the tree so it return 0.
         if (temp == null)
@@ -30,14 +32,14 @@ public class Leaf_Nodes_in_Binary_Tree
             return 0;
         }
         int left,right;
-        // if both left and right node of parent node are null then return 1 bcoz its a leaf node.
-        if(temp.LeftChild==null && temp.RightChild==null){
-            return 1;
+        // if  left and right both node of parent node are not null then return 1 because it is a full node.
+        if(temp.LeftChild!=null && temp.RightChild!=null)
+        {
+            left=Count_Full_Nodes(temp.LeftChild);
+            right=Count_Full_Nodes(temp.RightChild);
+            return (1+right+left);
         }
-
-        left=Count_LeafNodes(temp.LeftChild);
-        right=Count_LeafNodes(temp.RightChild);
-        return (right+left);
+        return 0;
 
     }
 

@@ -17,10 +17,10 @@ public class Non_Leaf_Node_in_BinaryTree
         root.LeftChild.RightChild.RightChild=new Node(12);
 
         System.out.println("Number of Non-Leaf Nodes in Binary Tree");
-        // Count_Nodes function will call from here and count Non Leaf nodes
+        // count=Count_Non_LeafNodes function will call from here and count Non Leaf nodes
         int count=Count_Non_LeafNodes(root);
-        //print the value returned after calculating numbers of Leaf nodes.
-        System.out.println("Leaf Nodes = "+count);
+        //print the value returned after calculating numbers of Non Leaf nodes.
+        System.out.println("Non Leaf Nodes = "+count);
     }
 
     public static int Count_Non_LeafNodes(Node temp)
