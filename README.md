@@ -6,11 +6,11 @@
 ## Searching Algorithms
 ## Sorting Algorithms
 ## Data Structure 
-### Stack
-### Queue
-### Linked-List
-### Tree
-### Practice Questions
+* Stack
+* Queue
+* Linked-List
+* Tree
+## Practice Questions
 
 
 
