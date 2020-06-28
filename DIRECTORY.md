@@ -39,7 +39,7 @@ This repository conists of **Data-Structure** and **Algorithms** implemented in 
 * [**Tech-Gig Challenges Solutions**](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/tree/master/Tech_gig_Challenge_Solution)
 * [**Mathematical Programming Question**](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/tree/master/Practice%20Question)
 
-
+#### :- Implemented by [Deepanshu Chauhan]("https://github.com/Deepanshuchauhan123") (:
 
 
 
