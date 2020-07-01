@@ -21,25 +21,25 @@ public class Height_of_BinaryTree_From_Inorder{
 
         if (start > end)
             return null;
-        int max = max_Finder(array, start, end);
-        Node n = new Node(array[max]);
+        int min = min_Finder(array, start, end);
+        Node n = new Node(array[min]);
 
-        n.left = create_Tree(array, start, max - 1);
-        n.right = create_Tree(array, max + 1, end);
+        n.left = create_Tree(array, start, min - 1);
+        n.right = create_Tree(array, min + 1, end);
 
         return n;
 
     }
 
-    public static int max_Finder(int array[], int start, int end) {
+    public static int min_Finder(int array[], int start, int end) {
 
-        int max = start;
+        int min = start;
         for (int i = start + 1; i <= end; i++) {
-            if (array[i] < array[max]) {
-                max = i;
+            if (array[i] < array[min]) {
+                min = i;
             }
         }
-        return max;
+        return min;
     }
 
     public static int HeightOf_Tree(Node temp) {
