@@ -17,6 +17,7 @@ This repository conists of **Data-Structure** and **Algorithms** implemented in 
 * [Merge Sort](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Sorting%20Algorithm/Merge_Sort.java)
 * [Quick Sort Method 1](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Sorting%20Algorithm/Quick_Sort_Method_1.java)
 * [Quick Sort Method 2](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Sorting%20Algorithm/Quick_Sort_Method_2.java)
+* [Heap Sort](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Sorting%20Algorithm/Heap_Sort.java)
 * [Radix Sort](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Sorting%20Algorithm/Radix_Sort.java)
 * [Pancake Sort](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Sorting%20Algorithm/Pancake_Sorting.java)
 # Data Structure 
