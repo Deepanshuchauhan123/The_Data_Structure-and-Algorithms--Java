@@ -169,18 +169,34 @@ class LinkedListOperations {
 
     void deleteNode_At_Mid(int value) {
         Node n = head;
+        Node temp=head;
+        if(head==null){
+            
+        }else
         if (head.Data == value) {
             head = head.Next;
-            if (head.Next != null) {
-                head.Prev = null;
-            }
+           if(head !=null){
+               if (head.Next != null) {
+                   head.Prev = null;
+               }
+           }
         } else {
-            while (n.Next.Data != value && n != null) {
+            while (n.Data != value) {
+                temp=n;
                 n = n.Next;
+                if(n==null){
+                    break;
+                }
             }
-            n.Next = n.Next.Next;
-            if (n.Next != null) {
-                n.Next.Next.Prev = n;
+            if(n ==null){
+                
+            }else{
+                if(temp.Next!=null){
+                    temp.Next = temp.Next.Next;
+                    if (temp.Next != null) {
+                        temp.Next.Prev = temp;
+                    }
+                }
             }
         }
     }
