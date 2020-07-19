@@ -14,6 +14,7 @@ This repository conists of **Data-Structure** and **Algorithms** implemented in 
 * [Optimized Bubble Sort](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Sorting%20Algorithm/Optimized_Bubble_Sort.java)
 * [Selection Sort](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Sorting%20Algorithm/Selection_Sort.java)
 * [Insertation Sort](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Sorting%20Algorithm/Insertation_Sort.java)
+* [Shell Sort](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Sorting%20Algorithm/Shell_Sort.java)
 * [Count Sort](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Sorting%20Algorithm/Count_Sort.java)
 * [Merge Sort](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Sorting%20Algorithm/Merge_Sort.java)
 * [Quick Sort Method 1](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Sorting%20Algorithm/Quick_Sort_Method_1.java)
