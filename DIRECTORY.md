@@ -10,6 +10,7 @@ This repository conists of **Data-Structure** and **Algorithms** implemented in 
 * [Jump Search](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Searching%20Algorithms/Jump_Search.java)
 ## Sorting Algorithms
 * [Bubble Sort](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Sorting%20Algorithm/Bubble_Sort.java)
+* [Comb Sort](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Sorting%20Algorithm/Comb_Sort.java)
 * [Optimized Bubble Sort](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Sorting%20Algorithm/Optimized_Bubble_Sort.java)
 * [Selection Sort](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Sorting%20Algorithm/Selection_Sort.java)
 * [Insertation Sort](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Sorting%20Algorithm/Insertation_Sort.java)
