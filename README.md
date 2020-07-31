@@ -10,6 +10,7 @@
 * Queue
 * Linked-List
 * Tree
+### Greedy Algorithms
 ## Practice Questions
 ## [**For More Read DIRECTORY.md**](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/DIRECTORY.md)
 
