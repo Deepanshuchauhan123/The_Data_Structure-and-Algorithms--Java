@@ -39,6 +39,8 @@ This repository conists of **Data-Structure** and **Algorithms** implemented in 
 * [**Binary Tree**](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/tree/master/Data%20Structure/Binary%20Tree)
 * [**Binary Search Tree**](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/tree/master/Data%20Structure/Binary%20Search%20Tree(BST))
 * [**AVL Tree**](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/tree/master/Data%20Structure/AVL%20Tree)
+## Greedy Algorithms
+* [**Candy Problem**](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Greedy%20Algorithms/Candies_To_Childrens.java)
 ## Practice Questions
 * [**Pattern Printing**](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/tree/master/TechGig_Patterns_Problems_Solutions)
 * [**Tech-Gig Challenges Solutions**](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/tree/master/Tech_gig_Challenge_Solution)
