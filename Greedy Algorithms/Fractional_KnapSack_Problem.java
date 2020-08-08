@@ -3,13 +3,15 @@ Fractional KnapSack Problem ::
 	Knapsack Means a bag in which we have to carry products with maximum
 	Profit.
 Algorithm::
-	Step 1: Compute profit bt weight ratio
+	Step 1: Compute profit by weight ratio
 	Step 2: Sort them by profit by weight Ratio.
 	Step 3: Then enter those products having maximum profit by weight ratio.
 	Step 4: If space remaining in knapsack then add fractional part of product.
 	Step 5 : Now add all profit .
 
 	Note : Knapsack limit should not be crossed.
+
+Time Complexity : o(nlogn) (** because we use merge sort as sorting algorithm)
 */
 
 import java.util.Scanner;
