@@ -41,6 +41,7 @@ This repository conists of **Data-Structure** and **Algorithms** implemented in 
 * [**AVL Tree**](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/tree/master/Data%20Structure/AVL%20Tree)
 ## Greedy Algorithms
 * [**Candy Problem**](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Greedy%20Algorithms/Candies_To_Childrens.java)
+* [**Knapsack Problem**](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/blob/master/Greedy%20Algorithms/Fractional_KnapSack_Problem.java)
 ## Practice Questions
 * [**Pattern Printing**](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/tree/master/TechGig_Patterns_Problems_Solutions)
 * [**Tech-Gig Challenges Solutions**](https://github.com/Deepanshuchauhan123/The_Data_Structure-and-Algorithms--Java/tree/master/Tech_gig_Challenge_Solution)
